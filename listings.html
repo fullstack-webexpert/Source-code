@@ -1,0 +1,737 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>BuildersUpdate.com</title>
+<!-- mobile setting -->
+<link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+
+<!-- **CSS - stylesheets** -->
+<link id="responsive-css" href="css/all.css" rel="stylesheet" type="text/css" media="all" />
+<link id="responsive-css" href="css/dropkick.css" rel="stylesheet" type="text/css" media="all" />
+<link id="default-css" href="style.css" rel="stylesheet" type="text/css" media="all" />
+<link id="responsive-css" href="responsive.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- **jQuery** -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="js/jquery.dropkick-min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+</head>
+
+<body class="home">
+
+<!-- **Wrapper** -->
+<div id="wrapper">
+
+    <!-- **Header** -->
+    <div id="header">
+        <div class="container">
+            <!-- **Logo** -->
+            <div id="logo">
+                <a href="#" title=""> <img src="images/logo.png" alt="" title="" /> </a>
+            </div><!-- **Logo - End** -->        
+            
+            <div class="mobile-menu-button-wrapper mobile-show">
+                <a href="javascript:;" class="menuicon"><img src="images/mobile-menu-button.png" /></a>
+            </div>
+            <div class="clear desktop-hide"></div>
+            <div class="loggedin-link-wrapper mobile-hide">
+                <div class="mobile-hide">
+                    <a href="#" title="">Referrals</a>
+                    <a href="#" title="">My Private Label</a>
+                    <a href="#" title="">Newsroom</a>
+                    <a href="#" title="">Contact Us</a>
+                </div>
+                <div class="clear"></div>
+                <div class="icon-link-wrapper">
+                    <span><a href="#" class="search">search</a></span>
+                    <span><a href="#" class="user">user</a></span>
+                    <span><a href="#" class="setting">setting</a></span>
+                    <span><a href="#" class="favorite">favorite</a></span>
+                </div>
+            </div>
+            
+        </div>
+    </div><!-- **Header - End** -->
+    
+    <!-- **Top-Menu** -->
+    <div class="clear"></div>
+    <div id="top-menu" class="mobile-hide">
+        <div class="container">
+            <!-- **Social icons** -->
+            <div class="social-icons">
+                <a href="#" title="" class="facebook"> </a>
+                <a href="#" title="" class="google"> </a>
+                <a href="#" title="" class="twitter"> </a>
+                <a href="#" title="" class="linkedin"> </a>
+                <a href="#" title="" class="pinterest"> </a>
+            </div><!-- **Social icons** -->
+            <!-- ** Main Menu** -->
+            <ul class="menu">
+                <li class="current_page_item"> <span class="hoverL"> <span class="hoverR"> </span> </span> <a href="#" title="">Property Search</a></li> 
+                <li> <span class="hoverL"> <span class="hoverR"> </span> </span> <a href="#" title="">My Buyers</a></li>
+                <li> <span class="hoverL"> <span class="hoverR"> </span> </span> <a href="#" title="">My Zone</a> </li>
+                <li> <span class="hoverL"> <span class="hoverR"> </span> </span> <a href="#" title="">Saved Searches</a> </li>
+            </ul><!-- ** Main Menu** -->
+            <div class="clear"></div>
+        </div>              
+    </div>
+    
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#" title="">Property Search</a></li> 
+            <li><a href="#" title="">My Buyers</a></li>
+            <li><a href="#" title="">My Zone</a> </li>
+            <li><a href="#" title="">Saved Searches</a> </li>
+        </ul><!-- ** Main Menu** -->
+    </div>
+    <div class="icon-link-wrapper mobile-show">
+        <span><a href="#" class="search">search</a></span>
+        <span><a href="#" class="user">user</a></span>
+        <span><a href="#" class="setting">setting</a></span>
+        <span><a href="#" class="favorite">favorite</a></span>
+    </div>
+    <!-- **Top-Menu - End** -->
+    
+    <!-- **Main** -->
+    <div id="main">
+        <!-- **Container** -->
+        <div class="container sidebar-container-wrap listing-search">
+            <div class="container-border-top"></div>
+            <!--  **Content** -->
+            <div class="content with-left-sidebar">
+                <div class="navigation-wrapper mobile-hide">
+                    <ul class="tab-menu mobile-hide">
+                        <li class="menu-item item-results active hide-ipad"><a href="#result-view">Results</a></li>
+                        <li class="menu-item item-map-view hide-ipad-landscape"><a href="#map-view" class="googlemap">Map View</a></li>
+                        <li class="info-wrap">
+                            <a href="#" class="new-search-link" id="start-new-search">Start a New Search</a>
+                            <span class="separator">|</span>
+                            <span class="found-count">Results: <strong>22 Properties found</strong></span>
+                        </li>
+                    </ul>
+                    <div class="tab-menu refine-menu mobile-hide">
+                        <span class="label">Refine By: </span>
+                        <a href="#refine-school" class="refine-item">School District</a>
+                        <span class="separator">|</span>
+                        <a href="#" class="refine-item">City</a>
+                        <span class="separator">|</span>
+                        <span class="hide-ipad">
+                            <a href="#" class="refine-item">Subdivision</a>
+                            <span class="separator">|</span>
+                        </span>
+                        <a href="#" class="refine-item">Property Type</a>
+                    </div>
+                    <div id="refine-school" class="refine-panel">
+                        <div class="column one-half">
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-1" /><label for="school-1">Northside Independent School District</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-2" /><label for="school-2">Northside Independent School District</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-3" /><label for="school-3">Northside Independent School District</label>
+                            </div>
+                        </div>
+                        <div class="column one-half last">
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-4" /><label for="school-4">Northside Independent School District</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-5" /><label for="school-5">Northside Independent School District</label>
+                            </div>
+                            <div class="form-field">
+                                <input type="checkbox" name="school[]" id="school-6" /><label for="school-6">Northside Independent School District</label>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div><!--#school.refine-panel-->
+                </div><!--navigation-wrapper-->
+
+				<div class="mobile-show back-menu-wrap">
+					<a href="#">Back to Search</a>
+				</div>
+
+                <div class="tab-panel" id="result-view" style="display:block;">
+                    <table id="search-result" border="0" cellpadding="0" cellspacing="0" class="mobile-hide">
+                        <tr class="header-row">
+                            <th class="fb-column">&nbsp;</th><th class="love-column">&nbsp;</th>
+                            <th class="status-column hide-ipad"><a href="#">Status</a><div class="arrow"></div></th>
+                            <th class="address-column"><a href="#">Address</a><div class="arrow"></div></th>
+                            <th class="price-column"><a href="#">Price</a><div class="arrow"></div></th>
+                            <th class="brand-column hide-ipad"><a href="#">Brand</a><div class="arrow"></div></th>
+                            <th class="subd-column hide-ipad"><a href="#">Subd</a><div class="arrow"></div></th>
+                            <th class="sqft-column"><a href="#">SQ.Ft.</a><div class="arrow"></div></th>
+                            <th class="bd-column"><a href="#">BD</a><div class="arrow"></div></th>
+                            <th class="bth-column"><a href="#">Bth</a><div class="arrow"></div></th>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row active">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row active">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row active">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row active">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row active">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="fb-column"><div class="fb-icon"></div></td>
+                            <td class="love-column"><div class="love-icon"></div></td>
+                            <td class="status-column hide-ipad"><div class="overflow-cutter">09-20130</div></td>
+                            <td class="address-column"><div class="overflow-cutter">6908 Crestone Road</div></td>
+                            <td class="price-column"><div class="overflow-cutter">3,254,154</div></td>
+                            <td class="brand-column hide-ipad"><div class="overflow-cutter">Idea Homes</div></td>
+                            <td class="subd-column hide-ipad"><div class="overflow-cutter">Southbridge Villas</div></td>
+                            <td class="sqft-column"><div class="overflow-cutter">2658</div></td>
+                            <td class="bd-column"><div class="overflow-cutter">3</div></td>
+                            <td class="bth-column"><div class="overflow-cutter">2/1</div></td>
+                        </tr>
+                    </table>
+                    <table id="search-result" border="0" cellpadding="0" cellspacing="0" class="result-mobile mobile-show">
+                        <tr class="odd-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="odd-row active">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="odd-row">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                        <tr class="even-row active">
+                            <td class="love-column"><div class="fb-icon"></div><br /><br /><div class="love-icon"></div></td>
+                            <td class="data-column"><div class="overflow-cutter">
+								<div class="price">$130,000</div>
+								<div class="address">6908 Crestone Road, Austin, TX</div>
+								<div class="meta">4 be / 2 ba / 1,881 sqft</div>
+							</div></td>
+                            <td class="arrow-column"><div class="arrow"></div></td>
+                        </tr>
+                    </table>
+                </div><!--#result-view.tab-panel-->
+
+				<div class="tab-panel" id="map-view">
+                    <div class="map-wrap">
+                        
+                        <!-- create your map here! -->
+                        <div class="map tablet-hide" id="map_canvas">
+                        </div>
+                        <!-- create your map here! -->
+
+                        <div class="shadow tablet-hide">
+                            <img src="images/shadow.png" width="100%" />
+                        </div>
+
+                    </div><!--map-->
+                    <form id="search-form">
+                        <div class="search-option-wrap">
+                            <div class="column one-half">
+                                <input type="radio" name="search-option" id="option-red" />
+                                <label for="option-red">
+                                    <span class="flag-icon red-flag"></span>&nbsp;
+                                </label>
+                                <select class="default" id="red-option-select">
+                                  <option value="">All single family homes</option>
+                                </select>
+                            </div>
+                            <div class="column one-half last">
+                                <div class="column one-half">
+                                    <input type="radio" name="search-option" id="option-green" />
+                                    <label for="option-green"><span class="flag-icon green-flag"></span>Lots</label>
+                                </div>
+                                <div class="column one-half last">
+                                    <input type="radio" name="search-option" id="option-blue" />
+                                    <label for="option-blue"><span class="flag-icon blue-flag"></span>Condos</label>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div><!--search-option-wrap-->
+                        <div class="range-group-wrap">
+                            <div class="column one-half">
+                                <div class="field-group-title">Price Range</div>
+                                <div class="column one-half">
+                                    <input type="text" name="pricemin" value="200,000" />
+                                    <span class="range-dash"></span>
+                                </div>
+                                <div class="column one-half last">
+                                    <input type="text" name="pricemax" value="3,200,000" />
+                                </div>
+                                <div class="column one-half">
+                                    <select class="default" id="min-beds">
+                                      <option value="">min beds</option>
+                                    </select>
+                                </div>
+                                <div class="column one-half last">
+                                    <select class="default" id="min-baths">
+                                      <option value="">min baths</option>
+                                    </select>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="column one-half last">
+                                <div class="field-group-title">SQFT Range</div>
+                                <div class="column one-half">
+                                    <input type="text" name="sqftmin" value="1,000" />
+                                    <span class="range-dash"></span>
+                                </div>
+                                <div class="column one-half last">
+                                    <input type="text" name="sqftmax" value="10,000" />
+                                </div>
+                                <div class="column one-half">
+                                    <select class="default" id="min-garage">
+                                      <option value="">min garages</option>
+                                    </select>
+                                </div>
+                                <div class="column one-half last">
+                                    <select class="default" id="max-storeies">
+                                      <option value="">max stories</option>
+                                    </select>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div><!--range-group-wrap-->
+                        <div class="column one-half">
+                            <a href="#" id="new-search">Start a new search &gt;</a>
+                        </div>
+                        <div class="column one-half last">
+                            <input type="submit" class="search-button" value="" />
+                        </div>
+                        <div class="clear"></div>
+                    </form>
+                </div><!--#map-view.tab-panel-->
+            </div> <!--  **Content - End**  -->
+            
+            <!-- **Sidebar** -->
+            <div class="sidebar left-sidebar listing-detail">
+                <ul class="tab-menu sidebar-nav mobile-hide">
+                    <li class="menu-item item-ez-view active"><a href="#ez-view">EZ VIEW</a></li>
+                    <li class="menu-item item-directory"><a href="#directory">Directory</a></li>
+                </ul><!--content-menu-->
+
+				<div class="mobile-show back-menu-wrap">
+					<a href="#">Back to Results</a>
+				</div>
+
+                <div id="ez-view" class="tab-panel" style="display:block;">
+                    <div class="portfolio-skin-carousel">
+                        <ul class="portfolio-carousel">
+                            <li class="">
+                                <div class="image-wrapper">
+                                    <img src="images/post-img.png" width="100%"/>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="image-wrapper">
+                                    <img src="images/video.png" width="100%"/>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!--carousel-->
+
+                    <div class="button-wrap">
+                        <a href="#" class="view-more-button button">View more details</a>
+                    </div>
+
+                    <div class="ez-info">
+                        <div class="info-head">
+                            <strong>The Harvard</strong><span class="separator">/</span><strong>$389,900</strong><span class="separator">/</span><strong>Ready</strong><br />
+                            <small><em>5511 Pecan Hollow Dr, Missouri City, TX 78558</em></small>
+                        </div>
+                        <div class="info-meta">
+                            <span class="label">Sf.</span><strong>3,598</strong><span class="separator">/</span><span class="label">Bd.</span><strong>4</strong><span class="separator">/</span><span class="label">Bth.</span><strong>2.5</strong>
+                        </div>
+                        <div class="info-content">
+                            <p>Integer rhoncus faucibus gravida. Integer pretium bibendum orci at lobortis. Morbi non scelerisque tortor. Integer in rhoncus nunc. Mauris ornare rutrum rhoncus. Proin laoreet, felis eu rhoncus fringilla, dolor sapien mattis orci, at facilisis quam enim a lacus. Cras quis enim adipiscing, accumsan purus vel, ornare enim.</p>
+                        </div>
+                        <div class="info-action">
+                            <a href="#" class="save">Save</a>
+                            <a href="#" class="print mobile-hide">Print</a>
+                            <a href="#" class="share">Share</a>
+                        </div>
+                    </div><!--ez-info-->
+                </div><!--#ez-view.side-panel-->
+            </div>
+            <!-- **Sidebar - End** -->
+            <div class="clear"> </div>
+            <div class="container-border-bottom"></div>
+        </div><!-- **Container - End** -->
+    </div><!-- **Main - End**-->
+    
+    
+    <!-- ** Footer** -->
+    <div id="footer">
+        <div class="footer-bg">
+            <div class="container">    
+                <div class="copyright-content mobile-hide">
+                    <ul>
+                        <li> <a href="#" title="">About Us</a> </li>
+                        <li> <a href="#" title="">Contact Us</a> </li>
+                        <li> <a href="#" title="">Faqs</a> </li>
+                        <li> <a href="#" title="">Privacy Policy</a> </li>
+                    </ul>
+                    <p>&copy;2013 BuildersUpdate.com. All Rights Reserved. U.S. PATENT NO. 8,510,031<span>   &nbsp;&nbsp;|&nbsp;&nbsp;   </span><span>Online branding by </span>Legacy79</p>
+                </div>
+                <div class="footer-menu mobile-show">
+                    <a href="#" title="">About Us</a>
+                    <a href="#" title="">Contact Us</a>
+                    <a href="#" title="">Faqs</a>
+                    <a href="#" title="">Privacy Policy</a>
+                </div>
+                <div class="footer-logo">
+                    <!-- **Social icons** -->
+                    <div class="social-icons">
+                        <a href="#" title="" class="facebook"> </a>
+                        <a href="#" title="" class="google"> </a>
+                        <a href="#" title="" class="twitter"> </a>
+                        <a href="#" title="" class="linkedin"> </a>
+                        <a href="#" title="" class="pinterest"> </a>
+                    </div><!-- **Social icons** -->
+                </div>
+                <p class="mobile-show">&copy;2013 BuildersUpdate.com. All Rights Reserved. U.S. PATENT NO. 8,510,031<br style="margin-bottom: 15px; "/><span>Online branding by </span>Legacy79</p>
+            </div>
+        </div>
+    </div><!-- **Footer - End** -->
+</div><!-- **Wrapper - End** -->
+
+
+</body>
+</html>
